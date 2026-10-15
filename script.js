@@ -1,3 +1,8 @@
+const getSumBtn = document.createElement("button");
+getSumBtn.id = "getSumBtn";
+getSumBtn.append("Get Total Price");
+document.body.appendChild(getSumBtn);
+
 const getSum = () => {
     let prices = document.querySelectorAll(".prices");
     let total = 0;
